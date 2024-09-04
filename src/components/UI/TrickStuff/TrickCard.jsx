@@ -2,6 +2,8 @@ import Card from 'react-bootstrap/Card';
 import { Col } from 'react-bootstrap';
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
+import "./Tricks.css"
+
 const cardstyle = {
   padding: "10px",
   marginBottom: "15px",
@@ -9,24 +11,36 @@ const cardstyle = {
   alignSelf: "center",
 };
 
+function difficulty (props) {
+console.log(props);
+
+
+  return `mb-2text muted ${props}`
+}
+
+function length (props) {
+  let length = props.length;
+  return length;
+}
+
 function TrickCard(props) {
   return (
     <Container>
       <Row>
        {props.tricks.map((trick) => {
          return(
-          <Col md="2" key={bone.id}>
+          <Col md="4" key={trick.id}>
     <Card style={cardstyle} >
       <Card.Body>
-        <Card.Title>{bone.title}</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">{bone.storedIn}</Card.Subtitle>
+      <p className='counter'>Trick {trick.id} / {length(props.tricks)}</p>
+        <Card.Title>{trick.title}</Card.Title>
+        <Card.Subtitle className="mb-2 text muted"><p className={difficulty(trick.level)}>{trick.level}</p></Card.Subtitle>
         <Card.Text>
-          {bone.notes}
+         <strong>Notes:</strong>  {trick.notes}
         </Card.Text>
       </Card.Body>
       <Card.Body>
-Quantity: {bone.quantity}<br></br>
-${boneMath(bone)} each (est)
+<strong>How To:</strong> {trick.howTo}
       </Card.Body>
     </Card>
     </Col>

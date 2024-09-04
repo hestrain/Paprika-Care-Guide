@@ -7,6 +7,7 @@ import App from './App';
 import Routine from './components/pages/Routine';
 import Help from './components/pages/Help';
 import Other from './components/pages/Other';
+import Tricks from './components/pages/Tricks';
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/other',
         element: <Other />,
+      },
+      {
+        path: '/tricks',
+        element: <Tricks />,
       },
       
     ],
