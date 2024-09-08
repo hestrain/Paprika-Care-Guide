@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+// import Test from "./Test";
 import React from "react";
 import BoneCards from "../UI/BoneStuff/Bones";
 import Form from "react-bootstrap/Form";
@@ -13,7 +14,8 @@ export default function Help() {
       <Row>
         <h1>Help! What do I do?</h1>
         <h3>Some tips for meeting Paprika's Needs</h3>
-      </Row>
+      </Row> 
+      {/* <Row> <Test/></Row> */}
       <Row>
         <Form>
           {["checkbox"].map((type) => (
@@ -84,6 +86,7 @@ export default function Help() {
         <h3 id="#Bones">The Bones</h3>
         <BoneCards />
       </Row>
+      <Row></Row>
     </Container>
   );
 }

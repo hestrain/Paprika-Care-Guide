@@ -5,6 +5,7 @@ const tricks = [
         id: 1,
         title: "Go Outside",
         notes:"",
+        relevantLink: 
     },
     {
         id: 2,
@@ -13,7 +14,7 @@ const tricks = [
     },
     {
         id: 3,
-        title: "GTry Feeding Kibble",
+        title: "Try Feeding Kibble",
         notes:"",
     },
     {

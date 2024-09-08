@@ -20,6 +20,9 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <Help />,
+      },
+      {
         path: '/help',
         element: <Help />,
       },

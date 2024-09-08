@@ -3,9 +3,8 @@ import { Col } from 'react-bootstrap';
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 const cardstyle = {
-  padding: "10px",
-  marginBottom: "15px",
-  border: "solid 2px cyan",
+  marginBottom: "10px",
+  border: "solid 2px maroon",
   alignSelf: "center",
 };
 
@@ -16,7 +15,7 @@ return pricePer;
 
 function BoneCard(props) {
   return (
-    <Container>
+    <Container style={{paddingBottom: "10px", marginBottom:"10px"}}>
       <Row>
        {props.bones.map((bone) => {
          return(

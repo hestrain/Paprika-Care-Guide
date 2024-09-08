@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Footer from "./components/UI/Footer"
 import NavHead from "./components/UI/NavHead"
-import Container from "react-bootstrap"
 
 const App = () => {
   return (

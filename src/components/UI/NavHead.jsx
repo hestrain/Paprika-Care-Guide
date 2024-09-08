@@ -15,7 +15,6 @@ export default function NavHead() {
               height="50"
               className="d-inline-block align-top"
               alt="paprika logo"
-              backgroundColor="white"
             />{" "}
           </Navbar.Brand>
           <Nav.Link href="/help">
