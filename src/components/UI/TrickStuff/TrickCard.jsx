@@ -7,7 +7,6 @@ import "./Tricks.css"
 const cardstyle = {
   padding: "10px",
   marginBottom: "15px",
-  border: "solid 2px cyan",
   alignSelf: "center",
 };
 
@@ -16,6 +15,12 @@ console.log(props);
 
 
   return `mb-2text muted ${props}`
+}
+
+function border (props) {
+return(
+  `cardstyle ${props}Border`
+)
 }
 
 function length (props) {
@@ -28,9 +33,10 @@ function TrickCard(props) {
     <Container>
       <Row>
        {props.tricks.map((trick) => {
+
          return(
           <Col md="4" key={trick.id}>
-    <Card style={cardstyle} >
+    <Card className={border(trick.level)}>
       <Card.Body>
       <p className='counter'>Trick {trick.id} / {length(props.tricks)}</p>
         <Card.Title>{trick.title}</Card.Title>

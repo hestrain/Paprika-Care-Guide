@@ -31,3 +31,22 @@
     font-size: small;
     text-align: right;
 }
+
+.cardstyle {
+  padding: 2px;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.noviceBorder{
+  border: solid 2px var(--pistachio)
+}
+.intermediateBorder{
+  border: solid 2px var(--saffron)
+}
+.advancedBorder{
+  border: solid 2px var(--orange-crayola)
+}
+.expertBorder{
+  border: solid 2px var(--imperial-red)
+}
