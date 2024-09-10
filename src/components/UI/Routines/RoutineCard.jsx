@@ -64,7 +64,7 @@ export default function RoutineCard(props) {
             return  (
             <Accordion defaultActiveKey="0" style={{ width: "90%" }} key={routine.id}>
             <Accordion.Item eventKey={routine.id}>
-              <Accordion.Header>#{routine.order}: {routine.title}</Accordion.Header>
+              <Accordion.Header>{routine.title}</Accordion.Header>
               <Accordion.Body>
                 {/* here is where were rendering the array of notes */}
                 <ol>
