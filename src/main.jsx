@@ -8,6 +8,7 @@ import Routine from './components/pages/Routine';
 import Help from './components/pages/Help';
 import Other from './components/pages/Other';
 import Tricks from './components/pages/Tricks';
+import Error from './components/pages/Error';
 
 
 

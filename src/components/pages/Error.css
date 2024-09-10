@@ -1,3 +1,4 @@
 .errorbg {
   background-image: "../public/images/space.jpg";
+  background-repeat: repeat;
 }
