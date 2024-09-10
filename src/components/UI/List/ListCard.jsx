@@ -3,8 +3,9 @@ import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import { Button } from "react-bootstrap";
+import './List.css'
 
-export default function Rou(props) {
+export default function ListCard(props) {
   return (
     <Container>
       <Row>
@@ -16,36 +17,36 @@ export default function Rou(props) {
 
           if (link == null) {
               //if no link needed return this
-            return  <Accordion defaultActiveKey="0" style={{ width: "50%" }}>
+            return  <Accordion defaultActiveKey="0" className="accordions">
             <Accordion.Item eventKey={thing.id}>
               <Accordion.Header>{thing.title}</Accordion.Header>
               <Accordion.Body>
                 {/* here is where were rendering the array of notes */}
+                <ul>
                 {list.map((note) => {
                   return (
-                    <ul>
                       <li>{note}</li>
-                    </ul>
-                  );
-                })}
+                    );
+                  })}
+                  </ul>
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>;
           } else {
             //if we do have a link to add create a button for the link!
             return (
-              <Accordion defaultActiveKey="0" style={{ width: "50%" }}>
+              <Accordion defaultActiveKey="0" className="accordions">
                 <Accordion.Item eventKey={thing.id}>
                   <Accordion.Header>{thing.title}</Accordion.Header>
                   <Accordion.Body>
                     {/* here is where were rendering the array of notes */}
+                    <ul>
                     {list.map((note) => {
                       return (
-                        <ul>
                           <li>{note}</li>
-                        </ul>
-                      );
-                    })}
+                        );
+                      })}
+                      </ul>
                     {/* and this is the conditional button, so that it only appears if a link exists */}
                     <Button href={thing.link}>{thing.linkText}</Button>
                   </Accordion.Body>
