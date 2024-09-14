@@ -60,6 +60,11 @@ const thingsToTry = [
         title: "Bones in a Sock",
         notes:["put her old bones in an old sock!","or one of her most skinned toys"],
     },
+    {
+        id: 11,
+        title: "Hallway Treat Toss",
+        notes:["sit in front of the livingroom", "toss treats towards/into the bathroom","when she comes back to you give her a treat","repeat"],
+    },
 ]
 
 function ListCards() {

@@ -2,7 +2,7 @@ import RoutineCard from "./RoutineCard"
 
 const routines = [
     {
-        title: "drugs",
+        title: "Drugs",
         time: "AM",
         notes:["1 x 100mg Gabapentin", "1/4 80mg ClomiCalm", "inside half a pill pocket"],
         id:1,
@@ -16,14 +16,14 @@ const routines = [
         order:2,
     },
     {
-        title:"feed the beast",
+        title:"Feed the Beast",
         time:"AM",
         notes:["one green scoop of kibble","a sprinkle of treat dust","one or two of the relaxation treats crumpled on top","depending how you're feeding it to her, add water"],
         id:3,
         order:3
     },
     {
-        title: "drugs",
+        title: "Drugs",
         time: "PM",
         notes:["1 x 100mg Gabapentin", "1/4 80mg ClomiCalm", "inside half a pill pocket"],
         id:5,
@@ -37,7 +37,7 @@ const routines = [
         order:2
     },
     {
-        title:"feed the BEASTS",
+        title:"Feed the BEASTS",
         time:"PM",
         notes:["TOMMY: 1/2 a can of wet food with a lil water","PAPRIKA: Same as AM, but with a little bit of Tommy food on top, OR if shes already eaten, she can just have a lil bit of Tommy food :)"],
         id:6,

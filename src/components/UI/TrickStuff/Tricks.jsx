@@ -6,7 +6,7 @@ const tricks = [
         title: "Sit",
         level: "novice",
         notes:"",
-        howTo:""
+        howTo:"say sit, hand in fist"
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const tricks = [
         title: "Crawl",
         level: "novice",
         notes:"",
-        howTo:"ask for a down on somethign soft, then drag your finger from her to you across the surface"
+        howTo:"ask for a down on something soft, then drag your finger from her to you across the surface"
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ const tricks = [
         title: "Down",
         level: "novice",
         notes:"",
-        howTo:""
+        howTo:"say down, hold hand out flat in front of you, palm down"
     },
     {
         id: 6,
@@ -49,7 +49,7 @@ const tricks = [
         title: "Hoop Jump",
         level: "novice",
         notes:"hoops are behind white cart. sometimes she is Not in the Mood",
-        howTo:""
+        howTo:"hold out in front of you and say hoop"
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ const tricks = [
         title: "Roll Out (the carpet)",
         level: "novice",
         notes:"rolls out ur yoga mat",
-        howTo:""
+        howTo:"put rolled up yoga mat in front of you, if she doesn't start right away tap the top of it"
     },
     {
         id: 11,
@@ -84,7 +84,7 @@ const tricks = [
         title: "Touch",
         level: "novice",
         notes:"touches her nose to your hand, or foot now",
-        howTo:""
+        howTo:"hold hand out wiht palm towards her, say touch"
     },
     {
         id: 13,
@@ -112,14 +112,14 @@ const tricks = [
         title: "Leg Weave",
         level: "intermediate",
         notes:"you know how to do this one",
-        howTo:""
+        howTo:"start with her on your left. take a decent sized step forward and say weave"
     },
     {
         id: 17,
         title: "Pick a Card",
         level: "intermediate",
         notes:"her cards are in the treat bin in the closet",
-        howTo:""
+        howTo:"hold like 6 out in front of you towards her and she'll kind of just do it"
     },
     {
         id: 18,
@@ -140,7 +140,7 @@ const tricks = [
         title: "Shake",
         level: "intermediate",
         notes:"",
-        howTo:""
+        howTo:"hold out either hand and say paw. make sure your hand is lower than her hear or she'll think you want her do to chin rest"
     },
     {
         id: 21,
@@ -196,7 +196,7 @@ const tricks = [
         title: "Back Up",
         level: "advanced",
         notes:"",
-        howTo:`wave your hand at her like you're shooing her an say "back back back"`
+        howTo:`wave your hand at her like you're shoo-ing her an say "back back back"`
     },
     {
         id: 29,

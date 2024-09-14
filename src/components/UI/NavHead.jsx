@@ -7,10 +7,10 @@ export default function NavHead() {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
       <Container>
-        <Nav className="me-auto">
+        <Nav className="me-auto" style={{display:"flex", alignItems:"center"}}>
           <Navbar.Brand href="/help">
             <img
-              src="/images/pixil-frame-0.png"
+              src="/images/paprika vectir2.png"
               width="50"
               height="50"
               className="d-inline-block align-top"
