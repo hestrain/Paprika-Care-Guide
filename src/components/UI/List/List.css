@@ -1,5 +1,19 @@
 .accordions {
-    width: 40%;
+    width: 25%;
     margin: 5px;
 
 }
+
+
+/* ======= media screensize alteration ==========*/
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    .accordions {
+     width: 40%;
+    }
+   }
+  /* ======= media screensize alteration ==========*/
+  @media screen and (max-width: 768px) {
+   .accordions {
+    width: 90%;
+   }
+  }

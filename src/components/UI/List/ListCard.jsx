@@ -8,7 +8,7 @@ import './List.css'
 export default function ListCard(props) {
   return (
     <Container>
-      <Row>
+      <Row style={{justifyContent:"center"}}>
         {props.thingsToTry.map((thing) => {
             //notes variable becuase its an array, this will let us actually render the array yahoo
           const list = thing.notes;
@@ -22,10 +22,10 @@ export default function ListCard(props) {
               <Accordion.Header>{thing.title}</Accordion.Header>
               <Accordion.Body>
                 {/* here is where were rendering the array of notes */}
-                <ul>
+                <ul key={list.index}>
                 {list.map((note) => {
                   return (
-                      <li>{note}</li>
+                      <li key={note.index}>{note}</li>
                     );
                   })}
                   </ul>

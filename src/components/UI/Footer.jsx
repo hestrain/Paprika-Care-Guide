@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function Footer() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" sticky="bottom">
+    <Navbar expand="lg" className="bg-body-tertiary" sticky="bottom" >
       <Container>
         <Navbar.Brand href="#">Footer</Navbar.Brand>
         <img className='footerimg' src='/images/dachshund.svg'></img>

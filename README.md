@@ -1,27 +1,26 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributors](https://img.shields.io/github/contributors/hestrain/august-portfolio.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/august-portfolio/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/hestrain/august-portfolio.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/august-portfolio/network/members)
-[![Stargazers](https://img.shields.io/github/stars/hestrain/august-portfolio.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/august-portfolio/stargazers)
-[![Issues](https://img.shields.io/github/issues/hestrain/august-portfolio.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/august-portfolio/issues)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=appveyor&logo=linkedin&colorB=555)](https://linkedin.com/in/hestrain)
+[![Contributors](https://img.shields.io/github/contributors/hestrain/paprika-care-guide.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/paprika-care-guide/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/hestrain/paprika-care-guide.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/paprika-care-guide/network/members)
+[![Stargazers](https://img.shields.io/github/stars/hestrain/paprika-care-guide.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/paprika-care-guide/stargazers)
+[![Issues](https://img.shields.io/github/issues/hestrain/paprika-care-guide.svg?style=plastic&logo=appveyor)](https://github.com/hestrain/paprika-care-guide/issues)
 
 </div>
 
-<h3 align="center">React Portfolio</h3>
+<h3 align="center">Paprika's Care Guide</h3>
 
   <p align="center">
-    This is a portfolio built with React
+    A car guide for my anxiety ridden and picky doggy
     <br />
-    <a href="https://github.com/hestrain/august-portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hestrain/paprika-care-guide"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://hestrain.netlify.app/">View Deployment</a>
     ·
-    <a href="https://github.com/hestrain/august-portfolio/issues">Report Bug</a>
+    <a href="https://github.com/hestrain/paprika-care-guide/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hestrain/august-portfolio/issues">Request Feature</a>
+    <a href="https://github.com/hestrain/paprika-care-guide/issues">Request Feature</a>
   </p>
 </div>
 
@@ -75,7 +74,6 @@ There are no prerequisites for this portfolio! Simply visit the deployed site [h
 
 This portfolio should adapt to screen sizes!
 
-
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -101,6 +99,6 @@ This project is licensed under the MIT license.
 
 HeatherEllen Strain - [hestrain@gmail.com](mailto:hestrain@gmail.com)
 
-Project Link: [https://github.com/hestrain/august-portfolio](https://github.com/hestrain/august-portfolio)
+Project Link: [https://github.com/hestrain/paprika-care-guide](https://github.com/hestrain/paprika-care-guide)
 
 Deployed Site: [https://hestrain.netlify.app/](https://hestrain.netlify.app/)

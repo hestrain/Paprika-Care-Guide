@@ -5,11 +5,12 @@ import { Col } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import ListGroup from "react-bootstrap/ListGroup";
+import InfoCards from "../UI/PappyInfo/Info"
 
 export default function Other() {
   return (
     <Container>
-<Card>Other</Card>
+<InfoCards />
     </Container>
   );
 }

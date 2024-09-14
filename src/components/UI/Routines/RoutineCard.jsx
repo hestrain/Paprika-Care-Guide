@@ -2,7 +2,6 @@ import { React } from "react";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 import {Col} from "react-bootstrap";
 
 export default function RoutineCard(props) {
@@ -10,11 +9,11 @@ export default function RoutineCard(props) {
     <Container>
       <Row>
         <Col>
-        <h2>Morning Routine</h2>
+        <h3>Morning Routine</h3>
         {props.routines.filter(routine => routine.time.includes('AM')).map((routine) => {
               const notes = routine.notes;
             return  (
-            <Accordion defaultActiveKey="0" style={{ width: "90%" }} key={routine.id}>
+            <Accordion defaultActiveKey="0" style={{ width: "90%" }} key={routine.id} className="accordions">
             <Accordion.Item eventKey={routine.id}>
               <Accordion.Header>#{routine.order}: {routine.title}</Accordion.Header>
               <Accordion.Body>
@@ -34,11 +33,11 @@ export default function RoutineCard(props) {
         )}
         </Col>
         <Col>
-        <h2>Evening Routine</h2>
+        <h3>Evening Routine</h3>
         {props.routines.filter(routine => routine.time.includes('PM')).map((routine) => {
               const notes = routine.notes;
             return  (
-            <Accordion defaultActiveKey="0" style={{ width: "90%" }} key={routine.id}>
+            <Accordion defaultActiveKey="0" style={{ width: "90%" }} key={routine.id} className="accordions">
             <Accordion.Item eventKey={routine.id}>
               <Accordion.Header>#{routine.order}: {routine.title}</Accordion.Header>
               <Accordion.Body>
@@ -57,12 +56,12 @@ export default function RoutineCard(props) {
           }
         )}
         </Col>
-        <Row>
-            <h2>Weekly Routines</h2>
+        <Row style={{alignItems:"center",  margin:"15px"}}>
+            <h3>Weekly Routines</h3>
             {props.routines.filter(routine => routine.time.includes('weekend')).map((routine) => {
               const notes = routine.notes;
             return  (
-            <Accordion defaultActiveKey="0" style={{ width: "90%" }} key={routine.id}>
+            <Accordion defaultActiveKey="0" style={{ width: "90%",}} key={routine.id}>
             <Accordion.Item eventKey={routine.id}>
               <Accordion.Header>{routine.title}</Accordion.Header>
               <Accordion.Body>
