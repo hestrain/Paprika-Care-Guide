@@ -219,7 +219,9 @@ const tricks = [
         notes:"",
         howTo:`Stand with one foot making a hoop against the other leg and say jump`
     },
-
+{
+    id: 1.5,
+}
 ]
 
 function TrickCards() {

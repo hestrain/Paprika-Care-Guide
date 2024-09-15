@@ -29,10 +29,18 @@ function length (props) {
 }
 
 function TrickCard(props) {
+  const tricks = props.tricks;
+  const sortedTricks = dynamicSort(tricks, [
+    {
+      property: ''
+    }
+  ])
   return (
+
+
     <Container>
       <Row>
-       {props.tricks.map((trick) => {
+       {props.tricks.sort((a,b) => a.id - b.id).map((trick) => {
 
          return(
           <Col md="4" key={trick.id}>
