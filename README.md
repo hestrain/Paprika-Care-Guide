@@ -11,12 +11,12 @@
 <h3 align="center">Paprika's Care Guide</h3>
 
   <p align="center">
-    A car guide for my anxiety ridden and picky doggy
+    An  over-elaborate care guide for my anxiety ridden and picky doggy!
     <br />
     <a href="https://github.com/hestrain/paprika-care-guide"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://hestrain.netlify.app/">View Deployment</a>
+    <a href="https://paprika-care-guide-1.onrender.com/">View Deployment</a>
     ·
     <a href="https://github.com/hestrain/paprika-care-guide/issues">Report Bug</a>
     ·
@@ -74,19 +74,6 @@ There are no prerequisites for this portfolio! Simply visit the deployed site [h
 
 This portfolio should adapt to screen sizes!
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
-3. Commit your Changes (git commit -m 'Add some AmazingFeature')
-4. Push to the Branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
-
 <!-- LICENSE -->
 
 ## License
@@ -101,4 +88,4 @@ HeatherEllen Strain - [hestrain@gmail.com](mailto:hestrain@gmail.com)
 
 Project Link: [https://github.com/hestrain/paprika-care-guide](https://github.com/hestrain/paprika-care-guide)
 
-Deployed Site: [https://hestrain.netlify.app/](https://hestrain.netlify.app/)
+Deployed Site: [https://paprika-care-guide-1.onrender.com/help/](https://paprika-care-guide-1.onrender.com/help)
