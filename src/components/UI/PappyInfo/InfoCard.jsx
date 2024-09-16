@@ -47,9 +47,10 @@ function InfoCard(props) {
                 <Card.Title>
                   <h1>{info.dogName}</h1>
                 </Card.Title>
-                <img src=""></img>
                 <Card.Body className="info">
-                  <h3>General Info</h3>
+                  <Row>
+                    <Col md="6">
+                    <h3>General Info</h3>
                   <ul>
                     <li>
                       <strong>Birthday: </strong>
@@ -110,6 +111,15 @@ function InfoCard(props) {
                       return <li key={note.index}>{note}</li>;
                     })}
                   </ul>
+                    </Col>
+                    <Col md="6">
+                  <img src={info.photo}
+                  style={{width:"100%"}}
+                  ></img>
+                    </Col>
+                  </Row>
+                  
+                  
                   <h3>Vets</h3>
                   <Row>
                     {info.vets.map((vet) => {

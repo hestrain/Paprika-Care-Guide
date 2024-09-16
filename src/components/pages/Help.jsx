@@ -9,8 +9,14 @@ export default function Help() {
   return (
     <Container>
       <Row>
-        <h1>Help! What do I do?</h1>
-        <h3>Some basic tips for meeting Paprika's Needs</h3>
+        <h1>
+          Help! What do I do? 
+          <img style={{width:"110px"}}
+        src="/images/paprika on her way2.png"
+        alt="a dachshund running">
+          </img>
+          </h1>
+        <h3>Some basic tips for meeting Paprika's Needs </h3>
       </Row> 
       <Row>
 <ListCards />

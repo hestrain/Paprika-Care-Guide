@@ -5,6 +5,7 @@ const information = [
         id:1,
         dogName: "Paprika",
         birthday: "December 17 2021",
+        photo:"/images/paprika Sept portrait.jpg",
         neutered:"yes",
         weight:"21lbs",
         notes:["very fearful, especially of new people and loud sounds", "flight risk if in new environment","takes pills 2x daily","wearing airtag","if she has too many of her drugs don't worry about it unless its like 10x more than she should have."],
