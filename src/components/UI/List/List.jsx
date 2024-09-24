@@ -4,12 +4,14 @@ const thingsToTry = [
     {
         id: 1,
         title: "Go Outside",
-        notes:["maybe she just needs to poop!"],
+        notes:["maybe she just needs to poop!", "(I know its silly that this needs a guide)"],
+        link: "/outside",
+        linkText:"How to take her outside"
     },
     {
         id: 2,
         title: "Fill Water(s)",
-        notes:["Thirsty girsty"],
+        notes:["Thirsty girsty", "Theres 1 water bowl in the bedroom, 1 in the hallway lol, and the fountain is beside heathers desk in the office"],
     },
     {
         id: 3,
