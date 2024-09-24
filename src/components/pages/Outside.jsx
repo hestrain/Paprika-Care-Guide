@@ -22,23 +22,29 @@ export default function Outside() {
       </Row> 
 <Row>
   <Card>
-    <Card.Title>Key Things</Card.Title>
+    <Card.Title>Key Things To Know</Card.Title>
     <Card.Body>
       <ul>
         <li>
-          Bring Treats
+          Back Door
         </li>
         <li>
-          Back Door
+          Bring Treats
         </li>
         <li>
           Don't let Tommy Out
         </li>
         <li>
+          Check surroundings before opening gate or baby gate/retreat if there's too many people
+        </li>
+        <li>
           Pick Up Poops ASAP (weird landlord/lawn mower guy complaints...)
         </li>
         <li>
-          She gets treats if she barks or if she looks @ you after hearing a noise (thye cna also be used to convince her to come inside)
+          Poop trash is the little blue bin on the porch
+        </li>
+        <li>
+          She gets treats if she barks or if she looks @ you after hearing a noise (they can also be used to convince her to come inside)
         </li>
         <li>
           She is allowed in the lane but usually only wants to go if its dark & quiet
