@@ -1,10 +1,8 @@
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import React from "react";
-import BoneCards from "../UI/BoneStuff/Bones";
 import ListCards from "../UI/List/List";
-import { Accordion } from "react-bootstrap";
-
+import { Card } from "react-bootstrap";
 export default function Help() {
   return (
     <Container>
@@ -21,17 +19,16 @@ export default function Help() {
       <Row>
 <ListCards />
       </Row>
+      
       <Row style={{marginTop:"15px"}}>
-        <h3 id="#bones">The Bones</h3>
-        <Accordion>
-          <Accordion.Header>Click to See Them</Accordion.Header>
-          <Accordion.Body>
+        <Card>
 
-        <BoneCards />
-          </Accordion.Body>
-        </Accordion>
+        <Card.Title>Locations</Card.Title>
+        <a href="/locations">Where Is All This Shit</a>
+        </Card>
       </Row>
-      <Row></Row>
+      <Row ></Row>
+      <div style={{height:"100px"}}></div>
     </Container>
   );
 }

@@ -10,6 +10,7 @@ import Other from './components/pages/Other';
 import Tricks from './components/pages/Tricks';
 import Error from './components/pages/Error';
 import Outside from './components/pages/Outside';
+import Locations from './components/pages/Locations';
 
 
 
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: '/outside',
         element: <Outside />,
+      },
+      {
+        path: '/locations',
+        element: <Locations />,
       },
       
     ],

@@ -49,6 +49,9 @@ export default function Outside() {
         <li>
           She is allowed in the lane but usually only wants to go if its dark & quiet
         </li>
+        <li>
+          If its raining theres a brown towel on the command hooks by the door, wipe off her pawsies and tummy when you come back in
+        </li>
       </ul>
     </Card.Body>
     <Card.Subtitle>See Below for more.....</Card.Subtitle>
@@ -122,7 +125,7 @@ Long Detailed Instructions
 </Row>
       <Row>
       </Row>
-      <Row>
+      <Row style={{height:"100px"}}>
 
       </Row>
     </Container>
