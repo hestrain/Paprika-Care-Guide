@@ -17,6 +17,8 @@ export default function Routine() {
 <RoutineCards />
         </Row>
       </Container>
+      <div style={{height:"100px"}}></div>
+
     </>
   );
 }

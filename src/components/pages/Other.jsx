@@ -9,8 +9,11 @@ import InfoCards from "../UI/PappyInfo/Info"
 
 export default function Other() {
   return (
+    <>
     <Container>
 <InfoCards />
     </Container>
+    <div style={{height:"100px"}}></div>
+    </>
   );
 }
